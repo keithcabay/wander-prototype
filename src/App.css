@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  
+  display: inline-block;
+  place-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
