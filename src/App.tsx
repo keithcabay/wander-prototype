@@ -9,20 +9,18 @@ import MexicoGalleryPage from "./pages/MexicoGalleryPage";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/form" element={<FormPage />} />
-          <Route path="/description" element={<DescriptionPage />} />
-          <Route path="/schedule" element={<FinalSchedulePage />} />
-          <Route path="/gallery" element={<GalleryLandingPage />} />
-          <Route path="/gallery/mexico" element={<MexicoGalleryPage />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter basename="/wander-prototype">
+      <ScrollToTop />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/form" element={<FormPage />} />
+        <Route path="/description" element={<DescriptionPage />} />
+        <Route path="/schedule" element={<FinalSchedulePage />} />
+        <Route path="/gallery" element={<GalleryLandingPage />} />
+        <Route path="/gallery/mexico" element={<MexicoGalleryPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
