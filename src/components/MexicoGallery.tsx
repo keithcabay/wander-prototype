@@ -1,7 +1,7 @@
-import { Box, Button, Flex, HStack, Image, Text, Icon } from "@chakra-ui/react";
+import { Box, Button, HStack, Image, Text, Icon } from "@chakra-ui/react";
 import { AddIcon, DeleteIcon } from "@chakra-ui/icons";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
 
 import pool from "./images/pool.jpg";
 import girlPyramid from "./images/girlPyramid.jpg";

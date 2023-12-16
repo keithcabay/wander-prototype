@@ -1,6 +1,6 @@
 import { Box, HStack, Text, Image, Flex, Button } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
 
 import onSwing from "./images/onSwing.jpg";
 import park from "./images/park.jpg";

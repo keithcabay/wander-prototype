@@ -2,8 +2,6 @@ import {
   Box,
   VStack,
   Text,
-  Image,
-  Grid,
   TableContainer,
   Table,
   TableCaption,
@@ -13,9 +11,6 @@ import {
   Tbody,
   Td,
 } from "@chakra-ui/react";
-import Airplane from "../components/images/airplane.png";
-import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
 import { useState } from "react";
 
 interface Day {

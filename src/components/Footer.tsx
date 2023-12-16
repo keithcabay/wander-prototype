@@ -1,13 +1,7 @@
 import {
   Box,
-  HStack,
   Text,
-  Image,
-  Flex,
-  Center,
-  Button,
 } from "@chakra-ui/react";
-import Airplane from "./images/airplane.png";
 
 const Footer = () => {
   return (

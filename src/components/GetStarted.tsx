@@ -1,6 +1,6 @@
 import { Box, HStack, Text, Image, Flex, Button } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
 
 import greece from "./images/greece.jpg";
 import paris from "./images/paris.jpg";

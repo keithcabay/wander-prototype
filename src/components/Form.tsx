@@ -1,8 +1,6 @@
 import {
   Box,
-  HStack,
   Text,
-  Image,
   FormControl,
   FormLabel,
   VStack,
@@ -13,12 +11,6 @@ import {
   NumberInputStepper,
   NumberIncrementStepper,
   NumberDecrementStepper,
-  useSteps,
-  Stepper,
-  Step,
-  StepIndicator,
-  StepStatus,
-  StepIcon,
   Progress,
   Button,
   Flex,
@@ -33,14 +25,7 @@ const steps = [
 ];
 
 const Form = () => {
-  const { activeStep, setActiveStep } = useSteps({
-    index: 1,
-    count: steps.length,
-  });
 
-  const activeStepText = steps[activeStep].description;
-
-  const max = steps.length - 1;
   const progressPercent = 25;
 
   return (

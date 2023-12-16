@@ -6,7 +6,6 @@ import {
   Image,
   Text,
   Icon,
-  Skeleton,
 } from "@chakra-ui/react";
 import { AddIcon, DeleteIcon } from "@chakra-ui/icons";
 import { Link as ReactRouterLink } from "react-router-dom";
@@ -16,7 +15,6 @@ import park from "./images/park.jpg";
 import rome from "./images/rome.jpg";
 import onSwing from "./images/onSwing.jpg";
 import pool from "./images/pool.jpg";
-import { color } from "framer-motion";
 
 const GalleryLanding = () => {
   return (
