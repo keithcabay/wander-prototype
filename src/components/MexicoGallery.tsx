@@ -10,7 +10,7 @@ import pyramid from "./images/mexicoPyamid.jpg";
 
 const MexicoGallery = () => {
   return (
-    <div>
+    <Box h="100vh">
       <HStack>
         <Text fontWeight="semibold" fontSize="40px" pl="30px">
           Mexico

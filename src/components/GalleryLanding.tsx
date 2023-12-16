@@ -10,7 +10,7 @@ import pool from "./images/pool.jpg";
 
 const GalleryLanding = () => {
   return (
-    <div>
+    <Box h="100vh">
       <Flex>
         <Button
           colorScheme="teal"
