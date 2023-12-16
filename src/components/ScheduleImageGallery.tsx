@@ -6,7 +6,6 @@ import {
   Flex,
   Button,
   useDisclosure,
-  Collapse,
   Fade,
 } from "@chakra-ui/react";
 
