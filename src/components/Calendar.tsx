@@ -203,7 +203,7 @@ const dateActivity: Day[][] = [
 ];
 
 const Calendar = () => {
-  const [currentDayActivity, setCurrentDayActivity] = useState<Day[][]>([[{}]]);
+  const [currentDayActivity, setCurrentDayActivity] = useState<Day[][]>([[]]);
   const [selectedDate, setSelectedDate] = useState(15);
 
   const handleOnClick = (index: number) => {
@@ -254,7 +254,7 @@ const Calendar = () => {
             <Tbody>
               {currentDayActivity &&
                 currentDayActivity.map(
-                  (dayArray, outerIndex) =>
+                  (dayArray) =>
                     dayArray &&
                     dayArray.map(({ time, description, location }, index) => (
                       <Tr key={index}>

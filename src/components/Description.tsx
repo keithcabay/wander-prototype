@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text, Textarea } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
 
 const Description = () => {
   return (

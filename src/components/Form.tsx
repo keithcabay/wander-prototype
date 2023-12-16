@@ -16,16 +16,9 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
-
-const steps = [
-  { title: "First", description: "Contact Info" },
-  { title: "Second", description: "Date & Time" },
-  { title: "Third", description: "Select Rooms" },
-];
+import { Link as ChakraLink } from "@chakra-ui/react";
 
 const Form = () => {
-
   const progressPercent = 25;
 
   return (
