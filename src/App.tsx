@@ -7,6 +7,7 @@ import ScrollToTop from "./pages/ScrollToTop";
 import GalleryLandingPage from "./pages/GalleryLandingPage";
 import MexicoGalleryPage from "./pages/MexicoGalleryPage";
 
+
 function App() {
   return (
     <BrowserRouter basename="/wander-prototype">

@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-import MapSchedule from "../components/MapSchedule";
 import ScheduleImageGallery from "../components/ScheduleImageGallery";
 
 const FinalSchedulePage = () => {
@@ -7,7 +6,6 @@ const FinalSchedulePage = () => {
     <div>
       <Header />
       <ScheduleImageGallery />
-      <MapSchedule />
     </div>
   );
 };
