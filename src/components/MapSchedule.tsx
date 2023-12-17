@@ -1,4 +1,4 @@
-import { Box, Text, Flex, Hide } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 
 import { useEffect, useState } from "react";
 import {
@@ -6,10 +6,7 @@ import {
   Map,
   AdvancedMarker,
   Pin,
-  InfoWindow,
 } from "@vis.gl/react-google-maps";
-
-import dateActivity, { Day } from "./Data";
 
 interface Props {
   lat: number;
