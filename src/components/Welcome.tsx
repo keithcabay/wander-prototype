@@ -7,7 +7,7 @@ const WelcomeBox = () => {
       <Image src={introPic} w="100%" />
       <Text
         color="#faf7f7"
-        fontSize={{ base: "35px", lg: "75px" }}
+        fontSize={{ base: "35px", lg: "50px" }}
         fontWeight="bold"
         position="absolute"
         top="50%"
