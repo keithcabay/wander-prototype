@@ -8,6 +8,8 @@ import {
   Pin,
 } from "@vis.gl/react-google-maps";
 
+import dateActivity from "./Data";
+
 interface Props {
   lat: number;
   lng: number;
