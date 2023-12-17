@@ -124,7 +124,7 @@ const GalleryLanding = () => {
         </Box>
         <Button ml="100px">{<AddIcon />}</Button>
       </HStack>
-    </div>
+    </Box>
   );
 };
 
