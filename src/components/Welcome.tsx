@@ -17,7 +17,7 @@ const WelcomeBox = () => {
         Welcome Back to Wander
       </Text>
       <Text
-        color="lightgray"
+        color="#dbdbdb"
         fontSize={{ base: "10px", lg: "20px" }}
         fontWeight="bold"
         position="absolute"
@@ -25,7 +25,7 @@ const WelcomeBox = () => {
         left="50%"
         transform="translate(-50%, -50%)"
       >
-        Your one stop for all your travel needs.
+        Dare to Dream, Choose to Wander: Begin Your Journey
       </Text>
     </Box>
   );
