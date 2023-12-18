@@ -6,7 +6,7 @@ import FinalSchedulePage from "./pages/FinalSchedulePage";
 import ScrollToTop from "./pages/ScrollToTop";
 import GalleryLandingPage from "./pages/GalleryLandingPage";
 import MexicoGalleryPage from "./pages/MexicoGalleryPage";
-
+import Forum from "./pages/Forum";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Route path="/schedule" element={<FinalSchedulePage />} />
         <Route path="/gallery" element={<GalleryLandingPage />} />
         <Route path="/gallery/mexico" element={<MexicoGalleryPage />} />
+        <Route path="/forum" element={<Forum />} />
       </Routes>
     </BrowserRouter>
   );
